@@ -57,7 +57,7 @@ sample_files/
 ## 📝 Notes
 - The model is sensitive to wind-related noise.
 - To mitigate false positives in `low wind` conditions, consider removing frequencies below **~800 Hz**.
-- This step may be particularly useful if integrating into a **multi-class larvae classifier** pipeline.
+- This step may be feasible if the **multi-class larvae classifier** allows it.
 
 ---
 
