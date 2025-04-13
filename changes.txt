@@ -1,0 +1,20 @@
+1. Model Architecture
+    -- using tanh activations instead of relu
+    -- reducing parameters from 2,887,299 (11.01 MB) to Total params: 286,147 (1.09 MB)
+
+2. Data
+    -- added extra very_low recordings
+
+3. training:
+    -- added reduce learning rate on plateau call back
+    -- added 20 epochs to get to 40 epochs total
+
+4. Results
+    -- accuracy: 0.969
+    -- Precision: 0.9710
+    -- Recall:    0.9695
+    --AUC:       0.9989
+
+5. Notes
+    model is sensitive to wind if we can remove lower frequencies below around 800 we could eliminate this problem for low wind
+    this depends on the multi-class larvae classifier
